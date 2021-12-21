@@ -1,0 +1,55 @@
+{
+  "token": "",
+  "prefix": ">>",
+
+  "clientsettings": {
+    "nodes": [
+      {
+        "host": "",  
+        "password": "",
+        "port": 443,
+        "identifier": "",     
+        "secure": true
+       }
+     ]
+  },
+
+  "spotify": {
+    "clientSecret": "8cba16cad2e243cda21c3fcf4538e5f",
+    "clientID": "52ad218fe09e463f8cb9e110902946ef"
+  },
+
+  "settings": {
+       "COMMENT": "time_delay 0 === insta leave",
+    "progressbar_emoji": "🔶",
+    "leaveOnEmpty_Channel" : {
+      "enabled": true,
+      "time_delay": 4000
+    },
+    "LeaveOnEmpty_Queue": {
+      "enabled": true,
+      "time_delay": 120000000 
+    },
+    "selfDeaf": true,
+    "serverDeaf": true
+  },
+
+  "lyricssettings": {
+    "lyrics_finder": true,         "COMMENT": "my suggestion is to use ksoft_api on true and paste in the api key u can sign up, until u get the key use lyrics_finder which is way weaker but better the nothing",
+    "ksoft_api": {
+      "use_this_instead": false,
+      "api_key": "AIzaSyAAg3GHxipuyDz7KsCAv434yoFT56TR9LQ"
+    }
+  },
+
+
+  "ownerIDS": [""],
+
+
+  "status": {
+    "text": ">help",
+    "type": "WATCHING", "COMMENT:": "TYPES ARE: PLAYING, STREAMING, WATCHING, LISTENING",
+    "url": "https://twitch.tv/TBG"
+  }
+
+}
